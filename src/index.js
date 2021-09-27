@@ -208,8 +208,10 @@ function getData(data) {
 }
 
 function createPage(data) {
+  console.log(data[0]);
   if (data[0] !== " ") {
-    window.HTMLTitleElement = data[0];
+    console.log("Changed!");
+    document.title = data[0];
   }
   var type = data[data.length - 1];
   data.pop();
