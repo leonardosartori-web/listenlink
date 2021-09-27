@@ -208,6 +208,9 @@ function getData(data) {
 }
 
 function createPage(data) {
+  if (data[0] !== " ") {
+    window.HTMLTitleElement = data[0];
+  }
   var type = data[data.length - 1];
   data.pop();
   var platforms = [
