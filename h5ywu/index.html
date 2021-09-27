@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Musicme</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css"
+    />
+    <link
+      id="favicon"
+      href="https://i.ibb.co/c8nsw0v/logo-large.png"
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+    />
+  </head>
+  <body>
+    <div id="body">
+      <div id="loading">
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+        <lord-icon
+          src="https://cdn.lordicon.com/dpinvufc.json"
+          trigger="loop"
+          colors="primary:#a6a6a6,secondary:#08a88a"
+          style="width: 128px; height: 128px;"
+          id="loading-image"
+        >
+        </lord-icon>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+        <button class="types" id="shareBtn">
+          Condividi
+          <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+          <lord-icon
+            src="https://cdn.lordicon.com/udwhdpod.json"
+            trigger="loop-on-hover"
+            colors="primary:#ffffff,secondary:#08a88a"
+            style="width: 32px; height: 32px;"
+          >
+          </lord-icon>
+        </button>
+        <div class="alert-div">Copied!</div>
+        <div id="footer">
+          <div id="foot">
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="https://www.instagram.com/_leonardo.sartori_/"
+              style="background-color: transparent;"
+            >
+              <span class="fa fa-instagram" id="insta"></span>
+            </a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="https://facebook.com/leonardosartori34"
+            >
+              <span class="fa fa-facebook"></span>
+            </a>
+            <a
+              class="btn btn-social-icon btn-github"
+              href="https://github.com/leonardosartori-web"
+            >
+              <span class="fa fa-github"></span>
+            </a>
+          </div>
+          <span class="develop">Developed by<br /></span>
+          <span>Leonardo Sartori</span>
+        </div>
+      </div>
+      <div id="main">
+        <span style="font-size: 30px; cursor: pointer;" id="openNav"
+          >&#9776;</span
+        >
+        <img
+          src="https://i.ibb.co/c8nsw0v/logo-large.png"
+          alt="Logo"
+          class="logo"
+        />
+
+        <div class="center" id="center"></div>
+
+        <div id="google_translate_element" class="translateBtn"></div>
+        <script
+          type="text/javascript"
+          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+        ></script>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
